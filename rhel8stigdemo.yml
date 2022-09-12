@@ -1,6 +1,6 @@
 ---
 - name: RHEL 8 STIG DEMO
-  hosts: stig
+  hosts: "{{ hosts }}"
   become: true
   roles: 
     - rhel8stigdemo
